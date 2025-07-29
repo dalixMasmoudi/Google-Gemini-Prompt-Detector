@@ -1,0 +1,45 @@
+# GuardiaVision Gemini - Object Detection System
+# Core dependencies for production deployment
+
+# Google Gemini API
+google-genai>=0.3.0
+
+# Image processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Utilities
+pathlib2>=2.3.7; python_version < '3.4'
+
+# Optional dependencies for enhanced functionality
+# Uncomment if needed:
+
+# For advanced image processing
+# opencv-python>=4.8.0
+# scikit-image>=0.21.0
+
+# Web API framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+
+# For database storage (future enhancement)  
+# sqlalchemy>=2.0.0
+# sqlite3  # Built-in with Python
+
+# For cloud deployment (future enhancement)
+# boto3>=1.28.0  # AWS
+# google-cloud-storage>=2.10.0  # Google Cloud
+# azure-storage-blob>=12.17.0  # Azure
+
+# Development dependencies (install with: pip install -r requirements-dev.txt)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.7.0
+# flake8>=6.0.0
+# mypy>=1.5.0
+# sphinx>=7.1.0

@@ -1,0 +1,39 @@
+{
+  "detection": {
+    "model_name": "gemini-2.5-flash-preview-05-20",
+    "temperature": 0.0,
+    "thinking_budget": 0,
+    "min_confidence": 0.7,
+    "max_objects": 20,
+    "remove_duplicates": true,
+    "iou_threshold": 0.5
+  },
+  "image": {
+    "max_size": 1024,
+    "min_size": 512,
+    "enhance_quality": true,
+    "contrast": 1.2,
+    "brightness": 1.0,
+    "sharpness": 1.1,
+    "color": 1.0,
+    "jpeg_quality": 95
+  },
+  "visualization": {
+    "show_confidence": true,
+    "show_labels": true,
+    "default_font_size": 12,
+    "default_line_width": 3,
+    "colors": [
+      "#FF0000",
+      "#00FF00", 
+      "#0000FF",
+      "#FFFF00",
+      "#FF00FF",
+      "#00FFFF",
+      "#FFA500",
+      "#800080",
+      "#FFC0CB",
+      "#A52A2A"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Original Inference Script",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/inference.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_API_KEY": "AIzaSyBP3kEqE7YFWn0rvEM8sXOGo9q_PrxJlPg"
+            },
+            "envFile": "${workspaceFolder}/.env",
+            "python": "${workspaceFolder}/.venv/bin/python"
+        },
+        {
+            "name": "Debug GuardiaVision Main - License Plate",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": [
+                "--image", "car.png",
+                "--objects", "license plate",
+                "--verbose"
+            ],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_API_KEY": "AIzaSyBP3kEqE7YFWn0rvEM8sXOGo9q_PrxJlPg"
+            },
+            "envFile": "${workspaceFolder}/.env",
+            "python": "${workspaceFolder}/.venv/bin/python"
+        },
+        {
+            "name": "Debug GuardiaVision Main - Cars and Trucks",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": [
+                "--image", "car.png",
+                "--objects", "cars, trucks",
+                "--verbose",
+                "--performance"
+            ],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_API_KEY": "AIzaSyBP3kEqE7YFWn0rvEM8sXOGo9q_PrxJlPg"
+            },
+            "envFile": "${workspaceFolder}/.env",
+            "python": "${workspaceFolder}/.venv/bin/python"
+        },
+        {
+            "name": "Debug GuardiaVision Main - High Confidence",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": [
+                "--image", "car.png",
+                "--objects", "license plate",
+                "--min-confidence", "0.9",
+                "--verbose",
+                "--save-raw"
+            ],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_API_KEY": "AIzaSyBP3kEqE7YFWn0rvEM8sXOGo9q_PrxJlPg"
+            },
+            "envFile": "${workspaceFolder}/.env",
+            "python": "${workspaceFolder}/.venv/bin/python"
+        },
+        {
+            "name": "Debug Quick debug_original_size",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_original_size.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_API_KEY": "AIzaSyBP3kEqE7YFWn0rvEM8sXOGo9q_PrxJlPg"
+            },
+            "envFile": "${workspaceFolder}/.env",
+            "python": "${workspaceFolder}/.venv/bin/python"
+        },
+        {
+            "name": "Debug API Diagnostic",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_api.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_API_KEY": "AIzaSyBP3kEqE7YFWn0rvEM8sXOGo9q_PrxJlPg"
+            },
+            "envFile": "${workspaceFolder}/.env",
+            "python": "${workspaceFolder}/.venv/bin/python"
+        },
+        {
+            "name": "Debug Individual Module - Detector",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/detector.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "GOOGLE_API_KEY": "AIzaSyBP3kEqE7YFWn0rvEM8sXOGo9q_PrxJlPg"
+            },
+            "envFile": "${workspaceFolder}/.env",
+            "python": "${workspaceFolder}/.venv/bin/python"
+        }
+    ]
+}
