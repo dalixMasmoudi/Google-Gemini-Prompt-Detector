@@ -41,8 +41,8 @@ A modular, production-ready computer vision system using Google's Gemini 2.5 mod
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/guardiavision/guardiavision-gemini.git
-cd guardiavision-gemini
+https://github.com/dalixMasmoudi/Google-Gemini-Prompt-Detector.git
+cd Google-Gemini-Prompt-Detector
 ```
 
 ### Step 2: Create Virtual Environment
@@ -290,8 +290,8 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ```bash
 # Clone and setup
-git clone https://github.com/guardiavision/guardiavision-gemini.git
-cd guardiavision-gemini
+git clone https://github.com/guardiavision/Google-Gemini-Prompt-Detector.git
+cd Google-Gemini-Prompt-Detector
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
