@@ -290,7 +290,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ```bash
 # Clone and setup
-git clone https://github.com/guardiavision/Google-Gemini-Prompt-Detector.git
+git clone https://github.com/dalixMasmoudi/Google-Gemini-Prompt-Detector.git
 cd Google-Gemini-Prompt-Detector
 python -m venv .venv
 source .venv/bin/activate
@@ -307,11 +307,6 @@ pip install -e .
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
-
-- **Documentation**: [Full API Documentation](https://guardiavision.readthedocs.io/)
-- **Issues**: [GitHub Issues](https://github.com/guardiavision/guardiavision-gemini/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/guardiavision/guardiavision-gemini/discussions)
 
 ## 🙏 Acknowledgments
 
